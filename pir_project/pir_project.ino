@@ -5,8 +5,8 @@
 #define COUNT 5
 #define SPRAY_MAX 2
 const int interval = 2000;      //interval for before next trigger 
-const unsigned int min_counter = 60000;  //interval for max time up to which the 5 counts should be achieved 
-const unsigned long int spray_interval = 180000 ;  //20 min counter 
+const unsigned int min_counter = 180000;  //interval for max time up to which the 5 counts should be achieved 
+const unsigned long int spray_interval = 1200000 ;  //20 min counter 
 // Set GPIOs for LED and PIR Motion Sensor
 const int led = 2;               
 const int motionSensor = 27;       //PIR pin 
